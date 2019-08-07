@@ -1,0 +1,9 @@
+applications:
+- name: PCF-Eureka-Webapp-Client
+path: target/PCF-Eureka-Webapp-Client.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- mydemo-registry
+- mycircuitbreaker

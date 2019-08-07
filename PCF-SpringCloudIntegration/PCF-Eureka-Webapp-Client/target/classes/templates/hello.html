@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+	background: url("../images/wp3195757.jpg");
+	background-size: cover;
+}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<br /> <br />
+		<a align="right" th:href="@{/}" >HOME</a>
+		<h2 style="color: white;">Microservice A :</h2>
+
+
+		<div class="table-responsive" style="background: white;">
+			<table class="table table-bordered" border="1">
+			<tbody>
+			<tr>
+						<td th:text="${results}"></td>
+							</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+</body>
+</html>

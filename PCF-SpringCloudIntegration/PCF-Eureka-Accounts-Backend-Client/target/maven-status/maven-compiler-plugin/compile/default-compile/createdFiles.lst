@@ -1,0 +1,6 @@
+com\learning\accounts\StubAccountRepository.class
+com\learning\accounts\Account.class
+com\learning\accounts\AccountController.class
+com\learning\accounts\AccountsMicroserviceServerApplication.class
+com\learning\accounts\AccountRepository.class
+com\learning\accounts\WebSecurityConfig.class

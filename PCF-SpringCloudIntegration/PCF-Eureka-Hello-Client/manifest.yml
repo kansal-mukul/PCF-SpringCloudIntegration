@@ -1,0 +1,8 @@
+applications:
+- name: PCF-Eureka-Hello-Client
+path: target/PCF-Eureka-Hello-Client.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- mydemo-registry
